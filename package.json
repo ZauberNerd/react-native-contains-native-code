@@ -1,0 +1,18 @@
+{
+  "name": "react-native-contains-native-code",
+  "version": "1.0.0",
+  "description": "A small module to test whether a given react-native dependency contains native or JS-only code. This is useful to determine for example to determine whether a deployment can be made via code-push (if only JS dependencies change).",
+  "keywords": ["react-native", "code-push", "utility", "cli", "devops", "xcode", "ios", "android"],
+  "main": "index.js",
+  "bin": {
+    "contains-native-code": "bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ZauberNerd <zaubernerd@zaubernerd.de>",
+  "license": "MIT",
+  "dependencies": {
+    "glob": "7.1.1"
+  }
+}
